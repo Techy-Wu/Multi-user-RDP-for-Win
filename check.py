@@ -18,6 +18,7 @@ modified_path = ".\\modified\\termsrv.dll"
 modified_md5 = file(modified_path, hashlib.md5())
 
 inuse_path = "C:\\Windows\\System32\\termsrv.dll"
+# inuse_path = ".\\new_termsrv.dll"
 inuse_md5 = file(inuse_path, hashlib.md5())
 
 toaster = ToastNotifier()
@@ -31,3 +32,4 @@ elif inuse_md5 == old_md5:
 else:
     print("Multi user mode is OFF, need to REWRITE system dll")
     toaster.show_toast("多任务远程服务器检测", "多任务状态异常，需要重写系统文件", icon_path=None, duration = 5)
+    os.system("python ./midify.py")
