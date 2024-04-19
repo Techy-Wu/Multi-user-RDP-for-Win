@@ -81,4 +81,5 @@ except:
 output_file.write(hex_out)
 output_file.close()
 
+logger.info("Program completed")
 toaster.show_toast("系统文件自动重写", "系统文件已自动重写，待覆盖", icon_path=None, duration = 5)
