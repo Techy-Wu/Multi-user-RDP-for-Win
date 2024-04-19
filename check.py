@@ -11,10 +11,10 @@ def file(path, algorithm):
         algorithm.update(f.read())
     return algorithm.hexdigest()  # 输出计算结果
 
-old_path = "C:\\RemoteLinkage\\old\\termsrv.dll"
+old_path = ".\\old\\termsrv.dll"
 old_md5 = file(old_path, hashlib.md5())
 
-modified_path = "C:\\RemoteLinkage\\modified\\termsrv.dll"
+modified_path = ".\\modified\\termsrv.dll"
 modified_md5 = file(modified_path, hashlib.md5())
 
 inuse_path = "C:\\Windows\\System32\\termsrv.dll"
