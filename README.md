@@ -12,13 +12,13 @@ Modifing the file C:/windows/system32/termsrv.dll could enable the multi-user fu
 
 [Win11 多用户同时登录远程桌面配置方法](https://www.wyr.me/post/701)
 
-## Detect Method
+## Detect Method 检测方法
 
 Calculate the md5 value of the system file, backuped source file and backuped modified file and do comparation to figure out the status
 
 计算并比较系统文件、备份原文件和备份修改文件的 md5 值，得到当前系统状态
 
-## Modify Method
+## Modify Method 修改方法
 
 Open the file in HEX mode and substitute the data "39 81 3C 06 00 00 0F 84 XX XX XX XX" with "B8 00 01 00 00 89 81 38 06 00 00 90"
 
