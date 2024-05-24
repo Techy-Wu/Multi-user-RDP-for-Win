@@ -45,7 +45,6 @@ If the status is "need to rewrite", run "./modify.py" then copy the file in fold
 ## Reminder 注意事项
 
 This program cannot guarantee the compatibility of the modified file with your system
-
 本程序无法保证修改的文件能适配你当前的系统
 
 As a special reminder, make sure you know how to restore the backuped file to the system folder after Windows cannot start before overwriting the system file
