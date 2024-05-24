@@ -36,7 +36,7 @@ Run "./check.py" to check the status
 
 If the status is "need to overwrite", copy the file in folder "./modified" to "C:/windows/system32" and overwrite the original one
 
-如果提升“需要覆写”，复制"./modified"文件夹里的文件到“C:/windows/system32”并覆盖原文件
+如果提示“需要覆写”，复制"./modified"文件夹里的文件到“C:/windows/system32”并覆盖原文件
 
 If the status is "need to rewrite", run "./modify.py" then copy the file in folder "./auto modi/modified" to "C:/windows/system32" and overwrite the original one
 
