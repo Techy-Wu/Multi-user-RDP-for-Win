@@ -6,9 +6,9 @@ A small Python script program for detecting the multi-user status, and a related
 
 ## Basement 基础
 
-Through modifying the file C:/windows/system32/termsrv.dll could enable the multi-user function of rdp on Windows 11 (Familiar with Windows Serser)
+Through modifying the file C:/Windows/system32/termsrv.dll could enable the multi-user function of rdp on Windows 11 (Familiar with Windows Serser)
 
-通过修改 C:/windows/system32/termsrv.dll 可以启用 windows 11 的远程桌面多用户功能（类似 Windows Server）
+通过修改 C:/Windows/system32/termsrv.dll 可以启用 windows 11 的远程桌面多用户功能（类似 Windows Server）
 
 Ref: [Win11 多用户同时登录远程桌面配置方法](https://www.wyr.me/post/701)
 
@@ -34,13 +34,13 @@ Run "./check.py" to check the status
 
 运行"./check.py"检测当前系统状态
 
-If the status is "need to overwrite", copy the file in folder "./modified" to "C:/windows/system32" and overwrite the original one
+If the status is "need to overwrite", copy the file in folder "./modified" to "C:/Windows/system32" and overwrite the original one
 
-如果提示“需要覆写”，复制"./modified"文件夹里的文件到“C:/windows/system32”并覆盖原文件
+如果提示“需要覆写”，复制"./modified"文件夹里的文件到“C:/Windows/system32”并覆盖原文件
 
-If the status is "need to rewrite", run "./modify.py" then copy the file in folder "./auto modi/modified" to "C:/windows/system32" and overwrite the original one
+If the status is "need to rewrite", run "./modify.py" then copy the file in folder "./auto modi/modified" to "C:/Windows/system32" and overwrite the original one
 
-如果提示“需要重写”，运行"./modify.py"，然后复制"./auto modi/modified"文件夹里的文件到“C:/windows/system32”并覆盖原文件
+如果提示“需要重写”，运行"./modify.py"，然后复制"./auto modi/modified"文件夹里的文件到“C:/Windows/system32”并覆盖原文件
 
 ## Reminder 注意事项
 
@@ -48,7 +48,7 @@ This program cannot guarantee the compatibility of the modified file with your s
 
 本程序无法保证修改的文件能适配你当前的系统
 
-As a special reminder, make sure you know how to restore the backupped file to the system folder after Windows cannot start before overwriting the system file
+As a special reminder, make sure you know how to restore the backupped file to the system folder while Windows cannot start before overwriting the system file
 
-特别提醒，在覆盖系统文件前请一定确保你知道如何在Windows系统无法正常启动后将已备份的系统文件还原到系统目录
+特别提醒，在覆盖系统文件前请一定确保你知道如何在Windows系统无法正常启动时将已备份的系统文件还原到系统目录
 
