@@ -6,7 +6,7 @@ A small Python script program for detecting the multi-user status, and a related
 
 ## Basement 基础
 
-Through modifying the file C:/Windows/system32/termsrv.dll could enable the multi-user function of rdp on Windows 11 (Familiar with Windows Serser)
+Through modifying the file C:/Windows/system32/termsrv.dll could enable the multi-user function of rdp on Windows 11 (Familiar with Windows Server)
 
 通过修改 C:/Windows/system32/termsrv.dll 可以启用 windows 11 的远程桌面多用户功能（类似 Windows Server）
 
