@@ -24,7 +24,7 @@ Open the file in HEX mode and substitute the data "39 81 3C 06 00 00 0F 84 XX XX
 
 用16进制模式打开文件，搜索 "39 81 3C 06 00 00 0F 84 XX XX XX XX" 替换为 "B8 00 01 00 00 89 81 38 06 00 00 90"
 
-Overwriter the file and restart rdp service
+Overwrite the file and restart rdp service
 
 覆写源文件并重启 rdp 服务
 
